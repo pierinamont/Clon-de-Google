@@ -2,6 +2,12 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar ul{
+  list-style: none;
+  margin: 0px;
+}
+
+  
 .gmail-button{
     background-color: #0087fc;
     color: white;
@@ -15,5 +21,6 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
+
     
 }
