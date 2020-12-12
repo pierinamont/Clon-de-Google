@@ -174,3 +174,42 @@ main .main-buttons button:hover{
     box-shadow: 0.1px 0.1px 1px 0.5px #dfdfdf;
 }
 /*TERMINA MAIN*/
+
+/*empieza footer*/
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute; /* asegura que esté hasta abajo */
+    bottom: 0;  /* asegura que esté hasta abajo */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
