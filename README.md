@@ -1,2 +1,5 @@
-# Clon-de-Google.github.io
-Este es un clon de la web del buscador de Google para mi clase de Platzi
+Clon de Google 💻
+=============
+Es un proyecto que hice para mi clase práctica de HTML y CSS, para el cual se buscó diseñar de la manera más exacta la web de Google.
+
+
