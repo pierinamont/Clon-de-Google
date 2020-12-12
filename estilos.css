@@ -95,6 +95,7 @@ main .main-logo img{
 
 main .main-input{
     width: 530px;
+    margin: 0 auto;
     margin-bottom: 35px;
     display: flex;
 }
@@ -103,22 +104,24 @@ main .main-input-container{
     width: 525px;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
 }
 
-main .main-input{
+main .main-input input{
     width: 450px;
     height: 40px;
-    display: inline-flex;
+    border: none;
+    outline: none;
+    border-radius: 100px;
 }
 
 main .main-input-container:hover{
     box-shadow: 1px 1px 5px 0.1px #dfdfdf;
 }
-main .main-input-container input{
-    border: none;
-    outline: none;
-}
+
 
 main .main-buttons{
     display: flex;
@@ -129,13 +132,29 @@ main .main-buttons{
 main .main-input-container input{
     width: 100%;
 }
-main .main-input-container .search-icon{ 
-    width: 80px;
-    height: 80px;
+
+main .main-input .search-icon { /**/
+     background-image: url('/images/loupe.png');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+     width: 15px;
+     height: 15px;
+     padding-right: 13px;
+     padding-left: 18px;
+
 }
 
-main .main-input .micro-icon {
-  
+main .main-input .micro-icon {/**/
+    background-image: url('/images/microphone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    padding-right: 13px;
+    padding-left: 18px;
+    cursor: pointer;
 
 }
 /*ICONO EN BUSCADOR*/
