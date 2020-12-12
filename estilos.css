@@ -126,9 +126,12 @@ main .main-buttons{
 }
 
 /*ICONO EN BUSCADOR*/
-
-main .main-input-container .search-icon{
-    
+main .main-input-container input{
+    width: 100%;
+}
+main .main-input-container .search-icon{ 
+    width: 80px;
+    height: 80px;
 }
 
 main .main-input .micro-icon {
